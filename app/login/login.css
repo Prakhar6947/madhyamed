@@ -1,0 +1,318 @@
+.login{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.login form{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.login input{
+    width: 180px;
+    height: 5vh;
+}
+.login .text{
+    border-radius: 10px;
+    border: solid 1px black;
+    padding-left: 1vw;
+    font-size: medium;
+    background-color: rgb(251, 255, 182);
+}
+.login .submit{
+    border: solid 1px greenyellow;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    background-color: purple;
+    color: whitesmoke;
+}
+
+#sign-in-google{
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: medium;
+    transition: all 0.2s linear;
+}
+#sign-in-google:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+
+
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-flow: column nowrap;
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.profile .Image{
+    margin-top: 10vh;
+}
+
+#useremail{
+    margin-top: 1vh;
+    font-size: medium;
+}
+#username{
+    margin-top: 3vh;
+    font-size: 5vh;
+}
+#password{
+    background-color: rgb(179, 91, 28);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(250, 211, 139);
+    cursor: pointer;
+    margin-top: 10px;
+}
+#sign-out{
+    margin-top: 4vh;
+    background-color: white;
+    width: 150px;
+    height: 75px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid 1px purple;
+    transition: all 0.25s linear;
+    color: rgb(179, 30, 0);
+    cursor: pointer;
+}
+#sign-out:hover{
+    background-color: purple;
+    color: white;
+}
+#change_pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+#change_pass input{
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#change_pass span{
+    border: 1px solid blue;
+    color: blue;
+    padding: 6px 8px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+#change_pass span:hover{
+    background-color: blue;
+    color: lightblue;
+}
+.doctor-sign form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column nowrap;
+    min-height: 200vh;
+}
+.doctor-sign form label{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.doctor-sign form input{
+    width: 50vw;
+    line-height: 3vh;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    height: 4vh;
+    font-size: medium;
+}
+
+#doctor_submit{
+    cursor: pointer;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    font-size: large;
+    transition: all 0.2s linear;
+}
+#doctor_submit:hover{
+    background-color: blueviolet;
+    color: lightpink;
+}
+
+.doctor-login-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: 20px;
+    min-height: 70vh;
+}
+.doctor-login-profile table{
+    border-collapse: collapse;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+.doctor-login-profile table td{
+    border: 1px solid black;
+    padding: 35px 5vw;
+    text-align: center;
+    font-size: larger;
+}
+.doctor-login-profile table caption{
+    font-size: 5vh;
+    margin-bottom: 40px;
+}
+#back-to-option{
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: rgb(0, 110, 255);
+    padding: 8px 8px;
+    font-family: sans-serif;
+}
+.option{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    flex-flow: column nowrap;
+}
+.option label{
+    font-size: 10vh;
+    text-align: center;
+    padding: 20px;
+}
+.option .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    font-size: 4vh;
+}
+.option .container span{
+    background-color: rgb(128, 0, 73);
+    color: rgb(255, 182, 231);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 30vw;
+    text-align: center;
+}
+
+#status_true{
+    background-color: greenyellow;
+    color: green;
+    font-size: larger;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#status_false{
+    background-color: rgb(203, 0, 0);
+    color: rgb(254, 146, 146);
+    font-size: larger;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#login-sigin-switch{
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(0, 110, 255);
+    padding: 8px 8px;
+    font-family: sans-serif;
+}
+.doctor-login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    min-height: 80vh;
+    flex-flow: column nowrap;
+}
+.doctor-login form label{
+    font-size: 4vh;
+    font-family: sans-serif;
+}
+.doctor-login form input{
+    padding: 10px 20px;
+    width: 40vw;
+    border-radius: 10px;
+    border: 1px solid blue;
+    font-size: medium;
+
+}
+.doctor-login form .submit{
+    width: 100px;
+    height: 60px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: white;
+    cursor: pointer;
+    font-size: large;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.doctor-login form .submit:hover{
+    background-color: blueviolet;
+    color: lightpink;
+}
+#doctor-sigup-status-true{
+    font-size: larger;
+    background-color: greenyellow;
+    color: grey;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    font-family: sans-serif;
+}
+#doctor-sigup-status-false{
+    font-size: larger;
+    background-color: yellow;
+    color: grey;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    font-family: sans-serif;
+}
+#doctor-sigup-status-error{
+    font-size: larger;
+    background-color: rgb(255, 0, 0);
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    font-family: sans-serif;
+}

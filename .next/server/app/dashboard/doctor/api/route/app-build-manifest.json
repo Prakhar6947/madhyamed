@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "/dashboard/doctor/api/route": [
+      "static/chunks/f2441e65e5af3638.js",
+      "static/chunks/3c8e8f874e3fbb70.js",
+      "static/chunks/150316a471952cee.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-7fe7f83a472ad9a2.js"
+    ]
+  }
+}

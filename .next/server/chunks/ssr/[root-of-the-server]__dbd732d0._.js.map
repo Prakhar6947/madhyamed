@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/dashboard/feedback/page.js"],"sourcesContent":["import React from 'react'\n\nconst Feedback = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Feedback\n"],"names":[],"mappings":"6SAAA,EAAA,CAAA,CAAA,WAEiB,IAEb,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,CAAA,UAMU"}

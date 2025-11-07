@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/services/page.js"],"sourcesContent":["import React from 'react'\n\nconst Services = () => {\n  return (\n    <div>\n      This services\n    </div>\n  )\n}\n\nexport default Services\n"],"names":[],"mappings":"kRAAA,EAAA,CAAA,CAAA,WAEiB,IAEb,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI,CAMM"}

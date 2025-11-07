@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Dancing+Script:wght@400..700&family=Edu+SA+Hand:wght@400..700&family=Grechen+Fuemen&family=Pacifico&family=Parisienne&family=Special+Elite&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  width: 100vw;
+  /* height: 100vh; */
+}
+
+.home .top {
+  width: 100vw;
+  height: 80vh;
+  background: white;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+  grid-template-rows: 20vh 10vh 10vh 30vh;
+  grid-template-areas: "wel wel img img img"
+    "title title img img img"
+    "desc desc img img img"
+    "starta starta img img img";
+  justify-items: center;
+  align-items: center;
+}
+
+.home .top .welcome {
+  grid-area: wel;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vh;
+  color: greenyellow;
+}
+
+.home .top .title {
+  grid-area: title;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: #c18cf9;
+}
+@media  screen and (max-width:460px) {
+  .home .top .title{
+    font-size: 10vh;
+  }
+}
+
+
+.home .top .img {
+  grid-area: img;
+
+}
+
+.home .top .desc {
+  grid-area: desc;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+
+}
+
+.home .top .start {
+  grid-area: starta;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(to left, #30cfd0 0%, #330867 100%);
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+  height: 80px;
+  font-size: large;
+  cursor: pointer;
+  transition: all 2s linear;
+}
+
+.home .top .start:hover {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+}
+
+.home .top .back {
+  grid-row: 1/4;
+  grid-column: 1/5;
+  background-color: #8416fa;
+  width: 120vw;
+  height: 40vh;
+}
+@media  screen and (max-width:900px) {
+  .home .top .img{
+    display: none;
+  }
+  .home .top .welcome{
+    grid-column: 1/6;
+  }
+  .home .top .title{
+    grid-column: 1/6;
+  }
+  .home .top .desc{
+    grid-column: 1/6;
+  }
+  .home .top .start{
+    grid-column: 1/6;
+  }
+}
+
+
+
+
+.home .middle .card_container {
+  display: flex;
+  width: 100vw;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.home .middle .card_container div {
+  background-color: rgb(245, 245, 245);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  width: 400px;
+  height: 20vh;
+  transform: scale(1);
+  transition: all 0.2s linear;
+}
+@media  screen and (max-width:420px){
+.home .middle .card_container div {
+  padding: 5vh 5vw;
+  width: 80vw;
+}
+}
+
+.home .middle .card_container>div:hover {
+  transform: scale(1.05);
+}
+
+.home .middle .card_container div div {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 2vh;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home .middle .card_container div div label {
+  font-size: 3vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.home .middle .card_container div div p {
+  font-size: small;
+}
+
+.home .middle .para {
+  margin: 10vh 20vw;
+  text-align: center;
+}
+
+.home .middle .para label {
+  font-size: 4vh;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.home .middle .para p {
+  margin-top: 2vh;
+  font-size: large;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.doctorback {
+  display: grid;
+  grid-template-columns: 30vw 20vw 20vw 30vw;
+  grid-template-rows: 50% 50%;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  justify-items: center;
+  align-items: center;
+}
+
+.doctorback div{
+  width: 100vw;
+  grid-row: 1/3;
+  grid-column: 1/5;
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row wrap;
+}
+
+
+.doctorback .img {
+  grid-row: 1/3;
+  grid-column: 1/5;
+}

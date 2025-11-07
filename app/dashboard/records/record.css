@@ -1,0 +1,57 @@
+.Patient_container .main_part .records {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 5vh;
+}
+.Patient_container .main_part .records label{
+    margin-top: 5vh;
+    font-size: 5vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Patient_container .main_part .records .record_area {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+    flex-flow: column nowrap;
+}
+.Patient_container .main_part .records .record_area li{
+    min-width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    font-size: larger;
+    padding: 0px 20px;
+    border: solid black 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+.Patient_container .main_part .records .record_area li:hover{
+    background-color: rgb(107, 135, 145);
+    color: white;
+}
+.Patient_container .main_part .records .record_area li .img{
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Patient_container .main_part .records .record_area li .date{
+    background-color: aqua;
+    position: relative;
+    height: 60px;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:700px) {
+    .Patient_container .main_part .records .record_area li .img{
+        display: none;
+    }
+}

@@ -1,0 +1,206 @@
+.Patient_container{
+    height: 80vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.Patient_container .side_bar{
+    background-color: rgb(27, 27, 27);
+    width: 20vw;
+}
+.Patient_container .side_bar ul{
+    position: relative;
+    width: 60%;
+    top: 10%;
+    left: 15%;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: column nowrap;
+    gap: 2vh;
+    font-size: larger;
+}
+.Patient_container .side_bar ul li{
+    cursor: pointer;
+}
+.Patient_container .side_bar ul li:hover{
+    color: orange ;
+}
+.Patient_container .side_bar ul .link_nav{
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+
+.Patient_container .main_part{
+    width: 80vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.Patient_container .main_part .dashboard{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    margin: 4% 5%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-flow: column nowrap;
+    gap: 5vh;
+}
+
+.Patient_container .main_part .dashboard .notifications{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: column nowrap ;
+}
+.Patient_container .main_part .dashboard .notifications label{
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+.Patient_container .main_part .dashboard .notifications .container{
+    background-color: lightblue;
+    width: 70vw;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.Patient_container .main_part .dashboard .records_dash{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: column nowrap ;
+}
+.Patient_container .main_part .dashboard .records_dash label{
+    font-size: 4vh;
+    margin-bottom: 10px;
+}
+.Patient_container .main_part .dashboard .records_dash .container{
+    background-color: lightblue;
+    width: 70vw;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.Patient_container .main_part .dashboard .features{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-flow: column nowrap ;
+    margin-bottom: 10vh ;
+}
+.Patient_container .main_part .dashboard .features > label{
+    font-size: 4vh;
+    margin-bottom: 15px;
+}
+.Patient_container .main_part .dashboard .features .container{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+.Patient_container .main_part .dashboard .features .container .cards{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 30px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+.Patient_container .main_part .dashboard .features .container .cards:hover{
+    transform: scale(1.1);
+}
+.Patient_container .main_part .dashboard .features .container .doctor label{
+    font-size: 3vh;
+}
+.Patient_container .main_part .dashboard .features .container .doctor p{
+    font-size: 2vh;
+}
+
+.Patient_container .main_part .dashboard .features .container .doctor button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: solid 1px blue;
+    color: blue;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.Patient_container .main_part .dashboard .features .container .doctor button:hover{
+    background-color: blue;
+    color: lightblue;
+}
+.Patient_container .main_part .dashboard .features .container .rec label{
+    font-size: 3vh;
+}
+.Patient_container .main_part .dashboard .features .container .rec p{
+    font-size: 2vh;
+}
+
+.Patient_container .main_part .dashboard .features .container .rec button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: solid 1px blue;
+    color: blue;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.Patient_container .main_part .dashboard .features .container .rec button:hover{
+    background-color: blue;
+    color: lightblue;
+}
+
+
+.Patient_container .main_part .ex_ai{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 4vh;
+}
+.Patient_container .main_part .ex_ai .logo{
+    align-self: start;
+}
+.Patient_container .main_part .ex_ai .welcome{
+    font-size: 10vh;
+}
+.Patient_container .main_part .ex_ai p{
+    font-size: 3vh;
+}
+.Patient_container .main_part .ex_ai .input{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.Patient_container .main_part .ex_ai .input input{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    width: 60vw;
+    height: 5vh;
+    background-color:wheat ;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: medium;
+}
+.Patient_container .main_part .ex_ai .input .sendimg{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: end;
+    margin-right: 10px;
+    cursor: pointer;
+}

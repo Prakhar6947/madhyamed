@@ -1,0 +1,28 @@
+.nologin{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    flex-flow: column nowrap;
+}
+.nologin h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    font-weight: 500;
+}
+.nologin button{
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: solid purple 2px;
+    background-color: white;
+    color: rgb(0, 13, 255);
+    transition: all 0.25s linear;
+}
+.nologin button:hover{
+    background-color: purple;
+    color: white;
+}

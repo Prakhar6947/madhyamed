@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/register/route": "/api/register",
+  "/dashboard/book_appointment/page": "/dashboard/book_appointment",
+  "/dashboard/doctor/api/route": "/dashboard/doctor/api",
+  "/dashboard/doctor/page": "/dashboard/doctor",
+  "/dashboard/feedback/page": "/dashboard/feedback",
+  "/dashboard/inbox/page": "/dashboard/inbox",
+  "/dashboard/medhya_explainer/page": "/dashboard/medhya_explainer",
+  "/dashboard/medhya_scriber/page": "/dashboard/medhya_scriber",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/records/api/route": "/dashboard/records/api",
+  "/dashboard/records/page": "/dashboard/records",
+  "/login/api/route": "/login/api",
+  "/login/page": "/login",
+  "/page": "/",
+  "/services/page": "/services"
+}
