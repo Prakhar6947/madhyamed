@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/dashboard/book_appointment/page.js"],"sourcesContent":["import React from 'react'\n\nconst Book = () => {\n  return (\n    <div>\n      \n    </div>\n  )\n}\n\nexport default Book\n"],"names":[],"mappings":"6SAAA,EAAA,CAAA,CAAA,WAEa,IAET,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,CAAA,UAMU"}
